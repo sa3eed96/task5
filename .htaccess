@@ -1,0 +1,5 @@
+RewriteEngine ON
+RewriteBase /t5/
+
+RewriteCond %{REQUEST_URI} !^.*/public.*$ [NC]
+RewriteRule ^(.*)$ index.php [QSA]
