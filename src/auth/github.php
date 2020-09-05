@@ -4,7 +4,6 @@
     if(isset($_GET['code']) && isset($_GET['state'])){
 
         if($_GET['state'] != $_SESSION['state']){
-            echo 'hehehe';
             die();
         }
 
